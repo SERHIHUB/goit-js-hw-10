@@ -15,12 +15,25 @@ input {
 .timer-btn {
   padding: 8px 16px;
   border-radius: 8px;
-  background-color: #cfcfcf;
-  color: #989898;
+  background-color: #4e75ff;
+  color: #fff;
   font-size: 16px;
   width: 75px;
   height: 40px;
   border: none;
+}
+
+.timer-btn:hover {
+  background-color: #6c8cff;
+  color: #fff;
+}
+button:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+}
+
+button:disabled:hover {
+  background-color: #cfcfcf;
 }
 
 .timer {
